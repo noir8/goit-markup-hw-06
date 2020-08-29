@@ -326,11 +326,24 @@
 			</section>
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
-					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos pariatur cupiditate tempora facilis
-						aperiam vel praesentium assumenda quis. Quam, earum!
-					</p>
 					<button data-modal-close>Закрыть</button>
+					<h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
+					<form class="modal-form">
+						<label for="name">Имя</label>
+						<input type="text" name="name" id="name" />
+						<br />
+						<label for="tel">Телефон</label>
+						<input type="tel" name="tel" id="tel" />
+						<br />
+						<label for="mail">Почта</label>
+						<input type="email" name="mail" id="mail" />
+						<br />
+						<label for="comment">Комментарий</label>
+						<textarea name="comment" id="comment" rows="10"></textarea>
+						<br />
+						<input type="checkbox" name="licensing-agreement" value="licensing-agreement" id="licensing-agreement" />
+						<label for="licensing-agreement">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+					</form>
 				</div>
 			</div>
 		</main>
