@@ -598,7 +598,7 @@ p {
 	padding-bottom: 60px;
 }
 .footer-block-one {
-	margin-right: 69px;
+	margin-right: 70px;
 	margin-top: 60px;
 }
 .footer-block-two {
@@ -606,8 +606,79 @@ p {
 	margin-top: 75px;
 }
 .footer-block-three {
-	margin-right: 69px;
-	margin-top: 72px;
+	margin-top: 75px;
+}
+.footer-header {
+	width: 219px;
+	height: 16px;
+	margin-bottom: 20px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.footer-submit-form {
+	display: flex;
+}
+.footer-submit-input {
+	display: flex;
+	flex-direction: column;
+}
+.footer-submit-input input {
+	width: 358px;
+	height: 50px;
+	padding: 16px;
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background: #2f303a;
+}
+
+.footer-button {
+	display: inline-block;
+	text-align: center;
+
+	border-style: none;
+	width: 200px;
+	height: 50px;
+	margin-top: 36px;
+	margin-left: 12px;
+
+	font-family: Roboto;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+
+	letter-spacing: 0.06em;
+
+	color: #ffffff;
+
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-button:hover,
+.footer-button:focus {
+	outline: 1px solid #2196f3;
+}
+
+.footer-button-icon {
+	display: inline-flex;
+	vertical-align: middle;
+
+	margin-left: 10px;
+
+	fill: #757575;
 }
 .container-footer .logo-2 {
 	display: flex;
@@ -653,42 +724,6 @@ p {
 	text-decoration: none;
 	font-style: normal;
 	color: rgba(255, 255, 255, 0.6);
-}
-.container-footer .footer-button {
-	margin-top: 20px;
-	text-decoration: none;
-
-	width: 200px;
-	height: 50px;
-
-	background: #2196f3;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 45px;
-
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
-
-	color: #ffffff;
-}
-
-.container-footer .footer-header {
-	width: 219px;
-	height: 16px;
-
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
 
 	color: #ffffff;
 }
