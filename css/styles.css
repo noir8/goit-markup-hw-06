@@ -25,6 +25,9 @@ a:focus {
 input:focus {
 	outline: 1px solid #2196f3;
 }
+textarea {
+	resize: none;
+}
 textarea:focus {
 	outline: 1px solid #2196f3;
 }
@@ -661,6 +664,7 @@ p {
 textarea {
 	display: flex;
 	margin: 0;
+	padding-left: 42px;
 	min-width: 448px;
 	min-height: 40px;
 	box-sizing: border-box;
@@ -689,6 +693,7 @@ textarea {
 	box-sizing: border-box;
 	border-radius: 4px;
 }
+
 .modal-form-field:hover textarea {
 	border: 1px solid #2196f3;
 	box-sizing: border-box;
@@ -761,6 +766,19 @@ textarea {
 	background-image: url("../images/icons/icon-check.svg");
 	background-size: contain;
 	background-origin: border-box;
+}
+.checkbox-link {
+	margin-left: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	letter-spacing: 0.03em;
+	text-decoration-line: underline;
+
+	color: #2196f3;
 }
 .modal-form .modal-icon {
 	position: absolute;
