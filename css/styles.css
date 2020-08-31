@@ -597,8 +597,10 @@ p {
 
 	color: #212121;
 }
+
 .modal {
 	position: absolute;
+
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -608,6 +610,7 @@ p {
 
 	background-color: #fff;
 }
+
 .modal-close-button {
 	position: absolute;
 	display: inline-flex;
@@ -629,6 +632,9 @@ p {
 }
 .modal-close-button:hover .modal-close-icon {
 	fill: #18a0fb;
+}
+.backdrop {
+	z-index: 1;
 }
 .modal-form {
 	padding-top: 12px;
@@ -869,6 +875,7 @@ textarea {
 .footer-submit-form {
 	display: flex;
 }
+
 .footer-submit-input {
 	display: flex;
 	flex-direction: column;
